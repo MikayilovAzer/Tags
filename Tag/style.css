@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Poppins:wght@100;200;400;500;600;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    border: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+body {
+    background: #F1E2F5;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+}
+
+.card {
+    width: 663px;
+    height: 254px;
+    background: #F1E2F5;
+    border: 12px solid #fff;
+    border-radius: 24px;
+    box-shadow: 0px 56px 84px rgba(122, 58, 173, 0.15);
+    padding: 32px;
+}
+
+.card .card-top h3 {
+    font-size: 24px;
+    width: 59px;
+    height: 30px;
+    margin-bottom: 16px;
+    font-family: 'Poppins';
+    font-weight: 400;
+}
+
+.card-bottom {
+    width: 600px;
+    height: 144px;
+}
+
+.tag-area {
+    display: flex;
+    flex-wrap: wrap;
+    align-self: center;
+}
+
+.tag-area li {
+    margin: 0 12px 12px 0;
+    background: #fff;
+    border-radius: 16px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tag-area li.active {
+    background: #1A2653;
+}
+
+.tag-area li.active a {
+    color: #fff;
+}
+
+.tag-area li a {
+    color: #1A2653;
+    font-size: 14px;
+    font-family: 'Poppins';
+    font-weight: 200;
+    letter-spacing: .4px;
+    padding: 8px 16px;
+}
